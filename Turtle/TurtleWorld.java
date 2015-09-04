@@ -44,6 +44,11 @@ public class TurtleWorld
         turtle8.setPenColor(Color.BLACK);
         turtle8.setPenWidth(100);
         turtle8.penDown();
+        
+        Turtle turtle9 = new Turtle(turtleWorld);
+        turtle9.setPenColor(Color.WHITE);
+        turtle9.setPenWidth(100);
+        turtle9.penDown();
 
         for (int i = 0; i < 36; i ++) 
         {
@@ -124,6 +129,16 @@ public class TurtleWorld
             turtle8.turn(120);
             turtle8.forward(30);
             turtle8.turn(50);
+        }
+         for (int i = 0; i < 36; i ++) 
+        {
+            turtle9.turn(60);
+            turtle9.forward(5);
+            turtle9.turn(120);
+            turtle9.forward(5);
+            turtle9.turn(120);
+            turtle9.forward(5);
+            turtle9.turn(50);
         }
     }
 }
